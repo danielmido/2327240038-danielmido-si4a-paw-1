@@ -1,0 +1,52 @@
+body {
+  background-color: #eee;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  color: yellow;
+}
+
+h1,
+h2,
+h3 {
+  color: green;
+}
+
+/* class selector */
+.bg-warning {
+  background-color: yellow;
+}
+
+.text-success {
+  color: green;
+}
+
+/* id selector */
+#bg-danger {
+  background-color: red;
+}
+
+img {
+  width: 450px;
+}
+
+/* Form */
+input[type="text"],
+input[type="data"],
+textarea,
+select {
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px;
+  border: 1px solid green;
+}
+
+button {
+  border-radius: 10px;
+  border: 1px solid green;
+  background-color: green;
+  color: white;
+  padding: 5px;
+  width: 100%;
+}
