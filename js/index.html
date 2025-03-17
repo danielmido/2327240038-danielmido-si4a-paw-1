@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Belajar JS</title>
+</head>
+
+<body>
+  <!-- Inline -->
+  <button onclick="alert('Halo!')">Salam</button>
+  <button id="btn">Belajar JS</button>
+
+  <p id="nama"></p>
+  <p id="umur"></p>
+  <p id="statusMahasiswa"></p>
+
+  <ul id="mahasiswa"></ul>
+
+  <table border="1">
+    <thead>
+      <tr>
+        <th colspan="2">Nama</th>
+      </tr>
+    </thead>
+    <tbody id="nilai"></tbody>
+  </table>
+
+  <ul id="quotes"></ul>
+
+  <!-- Internal -->
+  <script>
+    const btn = document.getElementById('btn');
+    btn.onclick = function () {
+      alert('Selamat belajar!');
+    }
+  </script>
+
+  <!-- Eksternal -->
+  <script src="script.js"></script>
+</body>
+
+</html>
